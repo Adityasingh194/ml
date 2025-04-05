@@ -1,0 +1,7 @@
+transformers
+pandas
+spacy
+pymongo
+scikit-learn
+torch
+sentence-transformers
