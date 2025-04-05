@@ -12,9 +12,9 @@ from collections import Counter
 nlp = spacy.load("en_core_web_sm")
 
 # Connect to MongoDB Atlas
-MONGO_URI = os.getenv("MONGO_URI") or "your_mongo_uri_here"
+MONGO_URI = os.getenv("mongodb+srv://sadityakumar194:12345@cluster0.hdmpeoz.mongodb.net/") or "your_mongo_uri_here"
 client = MongoClient(MONGO_URI)
-db = client["event_reviews"]
+db = client["chiler"]
 collection = db["reviews"]
 
 # Load sentiment analysis model
